@@ -3,7 +3,7 @@ entries:
   githubrepotest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-29T13:23:46.360323Z"
+    created: "2022-12-29T13:38:58.053462Z"
     description: A Helm chart for Kubernetes using github repo
     digest: dee60eb04e939c05d357ed9d0a8c2136f186ae36f7150df930bcc1f980edd243
     name: githubrepotest
@@ -11,4 +11,15 @@ entries:
     urls:
     - githubrepotest-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-29T13:23:46.359528Z"
+  secondchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-29T13:38:58.053995Z"
+    description: This is a second Helm chart for Kubernetes using github repo
+    digest: 46675e61e80787523865584af69fe163d3d3dcf152154aa80472c4ae6fa65717
+    name: secondchart
+    type: application
+    urls:
+    - secondchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-12-29T13:38:58.04953Z"
